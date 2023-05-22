@@ -65,6 +65,7 @@ public class MenuAdmin extends javax.swing.JFrame {
                 "ID Barang", "Barang", "Jumlah", "Total Harga", "Metode Pembayaran", "Status"
             }
         ));
+        tabelBarang.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
         tabelBarang.setMinimumSize(new java.awt.Dimension(50, 16));
         tabelBarang.setPreferredSize(new java.awt.Dimension(500, 16));
         tabelBarang.addMouseListener(new java.awt.event.MouseAdapter() {
